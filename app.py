@@ -36,7 +36,7 @@ avg_h = sum(gaps_h) / len(gaps_h)
 avg_j = sum(gaps_j) / len(gaps_j)
 
 # --- INTERFAZ ---
-st.info(f"💡 **Dato curioso:** El promedio de separación entre hermanos es de **{avg_h:.0f} días**, y entre tus hijos es de **{avg_j:.0f} días**. ¡La diferencia es de apenas una semana!")
+st.info(f"💡 **Dato curioso:** El promedio de separación entre hermanos es de **{avg_h:.0f} días**, y entre los hijos es de **{avg_j:.0f} días**. ¡La diferencia es de apenas una semana!")
 
 # Gráfico Comparativo
 fig = go.Figure()
