@@ -42,7 +42,7 @@ st.info(f"💡 **Dato curioso:** El promedio de separación entre hermanos es de
 fig = go.Figure()
 
 fig.add_trace(go.Bar(
-    x=['Juancho-Manuel', 'Manuel-Patricia'],
+    x=['Luis-Manuel', 'Manuel-Patricia'],
     y=gaps_h,
     name='Hermanos (Gen 1)',
     marker_color='salmon',
@@ -88,4 +88,4 @@ st.sidebar.write("Patricia (QEPD)")
 st.sidebar.write("Siempre presente en nuestra simetría.")
 st.sidebar.markdown("---")
 st.sidebar.write("🛠️ **Ingeniería de Vida**")
-st.sidebar.write("Desarrollado por: Mago Luis")
+st.sidebar.write("Desarrollado por: LDK")
